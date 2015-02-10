@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+# First rewrite to HTTPS:
+# Don't put www. here. If it is already there it will be included, if not
+# the subsequent rule will catch it.
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule !/status https://%{SERVER_NAME}%{REQUEST_URI} [L,R]
+# Now, rewrite any request to the wrong domain to use www.

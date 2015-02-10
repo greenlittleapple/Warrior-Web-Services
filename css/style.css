@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "blackjack";
+    src: url('/fonts/black_jack.ttf');
+}
+@font-face {
+    font-family: "mont";
+    src: url('/fonts/Montserrat-Bold.otf');
+}
+@font-face {
+    font-family: "Lato_";
+    src: url('/fonts/Lato-Thin.ttf');
+}
+label, p {
+    font-weight: 900 !important;
+}
+.header {
+    font-family: "mont";
+    padding-top: 100px
+}
+#bigheading {
+    font-size: 60px;
+    padding: 10px !important;
+}
+#animated {
+    background-color: white !important;
+    font-size: 100px;
+    padding: 10px !important;
+}
+.jumbotron {
+    height: 1000px !important;
+    margin-bottom: 0 !important;
+}
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-smooth: always;
+    background-color: #FFF;
+    color: #000 !important;
+    font-size: 18px !important;
+    font-family: "Lato_" !important;
+    font-weight: 600 !important;
+}
+.navbar-nav>li>a {
+    font-size: 18px !important;
+}
+/*.navbar-inverse .navbar-nav>.open>.dropdown-menu>li>a {
+    font-size: 16;
+    padding: 8 15 !important;
+    color: black !important;
+    background-color: white;
+    font-family: "Lato_" !important;
+    font-weight: 600 !important;
+}
+.open .dropdown-menu {
+    margin-top: 7px!important;
+    background-color: white !important;
+}*/
+.navbar-inverse {
+    background-color: #fff !important;
+    border: none !important;
+    margin-bottom: 0px !important;
+}
+#mainpage {
+    padding-top: 120px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.open>.dropdown-menu>li>a:hover,
+.navbar-inverse .navbar-nav>.open>.dropdown-menu>li>a:focus,
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.dropdown-menu li.active>a,
+.dropdown-menu li.selected>a,
+.dropdown-menu li.active>a.highlighted,
+.dropdown-menu li.selected>a.highlighted,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.dropdown-toggle .caret:hover {
+    color: #7A1E04;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+.navbar-nav>li>a,
+.navbar-inverse .navbar-toggle {
+    line-height: 120px!important;
+    height: 120px!important;
+    padding-top: 0!important;
+    color: #000;
+    max-height: 120px;
+}
+.navbar-brand {
+    padding-top: 12!important;
+}
+.navbar-nav>li {
+    margin-left: 30px;
+}
+.modal-backdrop {
+    z-index: 1020 !important;
+}
+.modal-dialog {
+    z-index: 1040 !important;
+}
+html,
+body {
+    height: 100%;
+}
+h4 {
+    font-weight: bold !important;
+}
+/* ANIMATION */
+.animated-1s {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+.animated-2s {
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+    -webkit-animation-duration: 1s; 
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+.animated-3s { 
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 1s; 
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+}
+
+@-webkit-keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateX(0); 
+    } 
+} 
+@keyframes fadeInLeft { 
+    0% { 
+        opacity: 0; 
+        transform: translateX(-20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateX(0); 
+    } 
+} 
+.fadeInLeft { 
+    -webkit-animation-name: fadeInLeft; 
+    animation-name: fadeInLeft; 
+}
+/*MOBILE ONLY*/
+@media only screen and (max-device-width: 767px) {
+    #bigheading {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (max-device-width: 1000px) {
+    #contact_form {
+        margin-top: 1600px !important;
+    }
+    #price_disclaimer {
+        color: black !important;
+    }
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: inherit;
+}
+.unactive > a {
+    color: black !important;
+}
+.title {
+    padding-top: 0;
+}
