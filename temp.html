@@ -3,9 +3,12 @@
 <head>
     <title>Warrior Web Services</title>
     <link rel="shortcut icon" href="/img/favicon.ico?v=3" />
-    <link href="/css/style.css?v=2.9.9.29" rel="stylesheet" />
+    <link href="/css/style.css?v=2.11.10.25" rel="stylesheet" />
     <link href="/css/bootstrap.min.css?v=1" rel="stylesheet" />
     <link href="/css/flat-ui.min.css?v=1" rel="stylesheet" />
+    <meta name="title" content="Warrior Web Services" />
+    <meta property="og:image" content="https://www.warriorwebservices.com/img/logo.png" />
+    <meta name="description" content="Warrior Web Services is a small organization in Troy High School, Fullerton, that provides websites and hosting to Troy's clubs." />
 </head>
 
 <body>
@@ -28,12 +31,12 @@
                     <li id="servicesactive" class="services">
                         <a id="servicelink" class="smoothScroll" href="#services">Services</a>
                     </li>
-                    <li id="portfolioactive" class="portfolio">
+                    <!--<li id="portfolioactive" class="portfolio">
                         <a id="portfoliolink" class="smoothScroll" href="#portfolio">Portfolio</a>
-                    </li>
+                    </li>-->
                     <li id="aboutactive" class="about"><a id="aboutlink" class="smoothScroll" href="#about">About</a>
                     </li>
-                    <li id="pricesactive" class="prices"><a id="priceslink" class="smoothScroll" href="#prices">Prices</a>
+                    <li id="pricesactive" class="prices"><a id="priceslink" class="smoothScroll" href="#prices">Price</a>
                     </li>
                     <li id="contactactive" class="contact"><a id="contactlink" class="smoothScroll" href="#contact_form">Contact</a>
                     </li>
@@ -43,15 +46,19 @@
     </nav>
     <div id="mainpage" class="container">
         <div class="container" style="height: 1000px;">
-            <div id="animated" class="animated-1s fadeInLeft text-center">
-                Hosting
+            <div style="font-family: mont; color: #7A1E04" id="animated" class="animated-1s fadeInLeft text-center">
+                Warrior Web Services
             </div>
             <div id="animated" class="animated-2s fadeInLeft text-center">
-                Web design
+                Hosting
             </div>
             <div id="animated" class="animated-3s fadeInLeft text-center">
+                Web design
+            </div>
+            <div id="animated" class="animated-4s fadeInLeft text-center">
                 Troy High Clubs
             </div>
+            
         </div>
     </div>
     <div id="services" style="background-color: #6DBDD6" class="container-fluid jumbotron">
@@ -65,47 +72,34 @@
             <div class="col-md-5" data-sr="enter left over .5s wait 1.2s" id="bigheading">&nbsp;&nbsp;&#9679; Admin features</div>
         </div>
     </div>
-    <div id="portfolio" style="background-color: #B71427" class="container-fluid jumbotron">
+    <!--<div id="portfolio" style="background-color: #B71427" class="container-fluid jumbotron">
         <div class="row">
             <h1 class="text-center header">PORTFOLIO</h1>
         </div>
-    </div>
+    </div>-->
     <div id="about" style="background-color: #FFE658" class="container-fluid jumbotron">
         <div class="row">
             <h1 class="text-center header">ABOUT</h1>
+            <div class="col-md-12" style="font-size: 40px">Warrior Web Services can provide your club a website to give it an online presence. We utilize WordPress to give you a high quality website within a short timeframe. We help you get set up very quickly, and help you manage your website when the need arises.<br><br>Warrior Web Services was founded in 2015 by Marcus Wong and Jacobzen Chang. You can find us on Facebook <a href="https://www.facebook.com/warriorwebservices">here</a>.</div>
         </div>
     </div>
     <div id="prices" style="background-color: #404040" class="container-fluid jumbotron">
         <div class="row text-center" style="margin: auto !important">
-            <h1 class="header" style="color: white">PRICES</h1>
-            <div data-sr="enter bottom over .5s wait .2s" class="col-md-3" style="background-color:white !important; border: 10px solid white; border-radius: 5px; height: 600px; border-bottom-right-radius: 0; border-top-right-radius: 0">
-                <h1 class="header title">Basic</h1>
+            <h1 class="header" style="color: white">PRICE</h1>
+            <div data-sr="enter bottom over .5s wait .2s" style="background-color:white !important; border: 10px solid white; border-radius: 5px; height: 700px;">
+                <h1 class="header title">FEATURES</h1>
                 <p>1 year of hosting</p>
                 <p>Custom .com domain</p>
                 <p>WordPress design</p>
                 <p>Administrator features</p>
-                <p>100% uptime</p>
-                <h2 style="color: green">$15/yr + <br>$10 one time fee</h2>
-            </div>
-            <div data-sr="enter bottom over .5s wait .4s" class="col-md-3" style=" background-color:white !important; border: 10px solid white; height: 600px;">
-                <h1 class="header title">Medium</h1>
-                <h3>All Basic features</h3>
-                +
+                <p>High uptime</p>
                 <p>SSL (Secure Socket Layer)</p>
-                <p>Internet Attack Protection</p>
-                <p>Faster speeds</p>
+                <p>Fast speeds</p>
+                <p>Custom domain email (yourname@yourdomain.com)</p>
                 <h2 style="color: green">$20/yr + <br>$10 one time fee</h2>
             </div>
-            <div data-sr="enter bottom over .5s wait .6s" class="col-md-3" style=" background-color:white !important; border: 10px solid white; height: 600px;">
-                <h1 class="header title">Addons</h1>
-                <h3>Club advertisement on this site</h3>
-                <h2 style="color: green">$2/mo</h2>
-            </div>
-            <div data-sr="enter bottom over .5s wait .8s" class="col-md-3" style=" background-color:white !important; border: 10px solid white; border-radius: 5px; height: 600px; border-bottom-left-radius: 0; border-top-left-radius: 0">
-                <h1 class="header title">Addons</h1>(continued)
-            </div>
         </div>
-        <p id="price_disclaimer" style="color:white; text-align: center">Paying in advance can be arranged. Addons can be added to any package. All sites bought through Warrior Web Services are ad-free. </p>
+        <p id="price_disclaimer" style="color:white; text-align: center">Paying in advance can be arranged for a maximum of 2 years. All sites bought through Warrior Web Services are ad-free. </p>
     </div>
     <?php include( 'contact.php'); ?>
     <div style="margin-top: 200px" class="text-center">
@@ -193,7 +187,7 @@
                 })
                 .setClassToggle('#servicesactive', 'active')
                 .addTo(controller);
-            var scene = new ScrollScene({
+            /*var scene = new ScrollScene({
                     triggerElement: "#portfolio"
                 })
                 .setClassToggle('#servicesactive', 'unactive')
@@ -202,11 +196,11 @@
                     triggerElement: "#portfolio"
                 })
                 .setClassToggle('#portfolioactive', 'active')
-                .addTo(controller);
+                .addTo(controller);*/
             var scene = new ScrollScene({
                     triggerElement: "#about"
                 })
-                .setClassToggle('#portfolioactive', 'unactive')
+                .setClassToggle('#servicesactive', 'unactive')
                 .addTo(controller);
             var scene = new ScrollScene({
                     triggerElement: "#about"
